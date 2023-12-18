@@ -7,4 +7,5 @@ void main() {
   print("multiplication of a and b =${a * b}");
   print("division of a and b =${a / b}");
   print("remainder of a and b =${a % b}");
+  print("sum of a,b and c =${a + b + c}");
 }
