@@ -11,4 +11,7 @@ void main() {
   print("your name is $name");
   print("your father name is $fname");
   print("yout age is  $age");
+  stdout.write("enter user input for var ");
+  var abc = stdin.readLineSync();
+  print("you enter a value in var is = $abc");
 }

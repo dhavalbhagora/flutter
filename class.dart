@@ -1,5 +1,7 @@
 void main() {
-  area().total(10.00);
+  area a = new area();
+  a.total(10);
+  //area().total(10.00);
 }
 
 class area {
