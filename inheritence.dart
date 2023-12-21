@@ -1,14 +1,14 @@
 void main() {
   person2 c = new person2();
-  c.input("dhaval", "18");
+  c.input("dhaval", 19);
   c.display();
 }
 
 class person {
-  var name;
-  var age;
+  String? name;
+  int? age;
 
-  void input(var a, var b) {
+  void input(String a, int b) {
     name = a;
     age = b;
   }
